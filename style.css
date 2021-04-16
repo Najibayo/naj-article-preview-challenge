@@ -6,8 +6,8 @@
     margin: 0 !important;
 }
 body {
-    font-family: 'Manrope', sans-serif;
-    Font size: 13px;
+    font-family:'Manrope', sans-serif !important;
+    Font-size: 13px !important;
 }
 .wrapper {
     display: flex;
@@ -17,9 +17,8 @@ body {
     background-color:hsl(210, 46%, 95%);
 }
 .content {
-    width:75%;
-    height:50%;
-    border: transparent;
+    width:63%;
+    height:40%;
     border-radius:6px;
 }
 .drawers {
@@ -34,13 +33,81 @@ body {
 
 .ad {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     background-color:white;
+    padding: 40px 32px !important
 }
-.ad-text {
+.ad-header{
+    font-weight: 700 !important;
+}
+.paragraph {
+    color:hsl(214, 17%, 51%);
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+}
+.info {
+    display: flex;
+    position: relative;
+}
+
+.rounded-circle{
+   height: auto; 
+}
+.michelle {
+    position: absolute;
+    display: flex;
+}
+.name p {
+    color:hsl(214, 17%, 51%);
+}
+
+.share {
+    height: auto;
+    position: absolute;
+    right: 0;  
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE STYLES */
+
+@media only screen and (max-width: 768px) {
+
 }
