@@ -18,16 +18,18 @@ body {
 }
 .content {
     width:60%;
-    height:300px;
-    position:relative;
+    height:40%;
     border-radius:10%;
 }
-.drawers {
-    height:inherit;
+.row {
+    height: 100%;
+    flex-wrap: nowrap !important;
 }
+
 .drawers img {
     width:123%;
     height:100%;
+    display: inline-block;
 }
 
 .ad {
@@ -35,7 +37,6 @@ body {
     flex-direction: column;
     background-color:white;
     padding: 40px 32px !important;
-    height: inherit;
 }
 .ad-header{
     font-weight: 700 !important;
@@ -49,15 +50,14 @@ body {
 }
 .info {
     display: flex;
-    position: relative;
+    justify-content: space-between
 }
 
 .michelle {
-    position: absolute;
     display: flex;
 }
 .michelle img{
-    height: auto;
+    height: 40px;
     
  }
 .name p {
@@ -68,17 +68,18 @@ body {
     font-weight:700;
 }
 .share-div {
-    height: 10px;
-    width:11px;
+    height: inherit;
+    width:40px;
     background-color:hsl(210, 46%, 95%);
     border-radius:50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .share {
     height: auto;
-    position: absolute;
-    right: 0;
-    /* padding: 1.5rem 1.5rem !important; */
     display: inline-block;
 } 
 
