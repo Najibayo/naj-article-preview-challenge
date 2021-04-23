@@ -81,8 +81,28 @@ body {
 .share {
     height: auto;
     display: inline-block;
-} 
+}
 
+
+
+
+.socials {
+    background-color:  hsl(217, 19%, 35%)
+}
+ul {
+    text-decoration: none;
+    List-style-type: none;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#share {
+    color: hsl(210, 46%, 95%);
+
+}
 
 
 
