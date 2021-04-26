@@ -20,6 +20,7 @@ body {
     width:60%;
     height:43%;
     border-radius:10%;
+    position:relative;
 }
 .row {
     height: 100%;
@@ -67,7 +68,7 @@ body {
 .name h6 {
     font-weight:700;
 }
-.share-div {
+#share-div {
     height: inherit;
     width:40px;
     background-color:hsl(210, 46%, 95%);
@@ -85,22 +86,30 @@ body {
 
 
 
-
+/* Social links */
 .socials {
-    background-color:  hsl(217, 19%, 35%)
+    background-color:  hsl(217, 19%, 35%);
+    border-radius:7px;
+    position:absolute;
+    right:-50px;
+    bottom:115px;
+
 }
 ul {
     text-decoration: none;
     List-style-type: none;
     display: flex;
     width: 200px;
-    height: 50px;
+    height: 54px;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
+/* ul li span  */
+
 #share {
     color: hsl(210, 46%, 95%);
+    font-size: 12px;
 
 }
 
@@ -163,5 +172,10 @@ ul {
     .ad {
         padding: 48px 40px 20px !important;
     }
+    .socials {
+        position:relative;
+
+
+
     
 }
